@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="base.css">
+  </head>
+  <body class="base">
+    <style>
+      body {
+      padding: 40px 150px 150px 150px;
+      }
+      section {
+      margin-bottom: 50px;
+      }
+      code {
+      background: #eee;
+      }
+    </style>
+ 
+    <header>
+      <h1>Base</h1>
+      <p>A very minimalistic collection of CSS I like to use as defaults</p>
+    </header>
+    
+    <section>
+      <h2>Font</h2>
+      <p><code>
+        .base { <br>
+        font-family: Helvetica, Arial, Sans-Serif; <br>
+        font-size: 15pt; <br>
+        }
+      </code></p>
+    </section>
+    
+    <section>
+      <h2>Text Input</h2>
+      <input type="text"></input>
+      <input class="base" type="text"></input>
+      
+      <p><code>
+        &lt;input type=&quot;text&quot;&gt;&lt;/input&gt;<br>
+        &lt;input class=&quot;base&quot; type=&quot;text&quot;&gt;&lt;/input&gt;<br>
+      </code></p>
+    </section>
+    
+    <section>
+      <h2>Buttons</h2>
+      <p>
+        <code>&lt;input type=&quot;button&quot; class=&quot;base&quot; ...</code>
+        is interchangeable with
+        <code>&lt;button class=&quot;base&quot; ...</code>
+      </p>
+      <input type="button" value="Button"></input>   
+      <input class="base" type="button" value="Default"></input>
+      <input class="base green" type="button" value=".green"></input>
+      <input class="base red" type="button" value=".red"></input>
+      <input class="base" type="button" value="disabled" disabled></input>
+      <p><code>      
+        &lt;input type=&quot;button&quot; value=&quot;Button&quot;&gt;&lt;/input&gt;<br>
+        &lt;input class=&quot;base&quot; type=&quot;button&quot; value=&quot;Default&quot;&gt;&lt;/input&gt;<br>
+        &lt;input class=&quot;base green&quot; type=&quot;button&quot; value=&quot;.green&quot;&gt;&lt;/input&gt;<br>
+        &lt;input class=&quot;base red&quot; type=&quot;button&quot; value=&quot;.red&quot;&gt;&lt;/input&gt;<br>
+        &lt;input class=&quot;base&quot; type=&quot;button&quot; value=&quot;disabled&quot; disabled&gt;&lt;/input&gt;<br>
+      </code></p>
+    </section>
+    
+    <section>
+      <h2>Button Sizing</h2>
+      <input class="base" type="button" value="Default"></input>
+      <input class="base medium" type="button" value=".medium"></input>
+      <input class="base large" type="button" value=".large"></input>
+
+      <p><code>
+        &lt;input class=&quot;base&quot; type=&quot;button&quot; value=&quot;Default&quot;&gt;&lt;/input&gt;<br>
+        &lt;input class=&quot;base medium&quot; type=&quot;button&quot; value=&quot;.medium&quot;&gt;&lt;/input&gt;<br>
+        &lt;input class=&quot;base large&quot; type=&quot;button&quot; value=&quot;.large&quot;&gt;&lt;/input&gt;<br>
+      </code></p>
+    </section>
+  </body>
+</html>

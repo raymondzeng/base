@@ -1,0 +1,53 @@
+.base {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 15pt;
+}
+
+input[type="text"].base {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    height: 40px;
+}
+
+/* Buttons */
+input[type="button"].base, button.base {    
+    border: 0;
+    padding: 5px 10px;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type="button"].base:hover, button.base:hover {    
+    background-color:#31b0d5;
+    border-color:#269abc;
+}
+input[type="button"].base.red, button.base.red {    
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+input[type="button"].base.red:hover, button.base.red:hover {    
+    background-color:#c9302c;
+    border-color:#ac2925
+}
+input[type="button"].base.green, button.base.green {    
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+input[type="button"].base.green:hover, button.base.green:hover {    
+    background-color:#449d44;
+    border-color:#398439
+}
+input[type="button"].base:disabled, button:disabled {    
+    background: #ccc;
+    cursor: default;
+}
+
+input[type="button"].base.medium, button.base.mediium {
+    padding: 10px 15px;
+}
+
+input[type="button"].base.large, button.base.large {
+    padding: 20px 30px;
+}
