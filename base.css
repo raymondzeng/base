@@ -53,7 +53,7 @@ input[type="button"].base.orange, button.base.orange {
     background-color: #f0ad4e;
     border-color: #eea236;
 }
-input[tyoe="button"].base.orange:hover, button.base.orange:hover {
+input[type="button"].base.orange:hover, button.base.orange:hover {    
     background-color: #ec971f;
     border-color: #d58512;
 }
