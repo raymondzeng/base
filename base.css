@@ -49,6 +49,14 @@ input[type="button"].base.green:hover, button.base.green:hover {
     background-color:#449d44;
     border-color:#398439
 }
+input[type="button"].base.orange, button.base.orange {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+input[tyoe="button"].base.orange:hover, button.base.orange:hover {
+    background-color: #ec971f;
+    border-color: #d58512;
+}
 input[type="button"].base:disabled, button:disabled {    
     background: #ccc;
     cursor: default;
