@@ -21,45 +21,24 @@ input[type="text"].base {
 
 /* Buttons */
 input[type="button"].base, button.base {    
-    border: 0;
     padding: 5px 10px;
     background-color: #5bc0de;
-    border-color: #46b8da;
+    border: 2px solid #5bc0de;
     color: white;
     text-decoration: none;
     cursor: pointer;
 }
-input[type="button"].base:hover, button.base:hover {    
-    background-color:#31b0d5;
-    border-color:#269abc;
-}
 input[type="button"].base.red, button.base.red {    
     background-color: #d9534f;
-    border-color: #d43f3a;
-}
-input[type="button"].base.red:hover, button.base.red:hover {    
-    background-color:#c9302c;
-    border-color:#ac2925
+    border: 2px solid #d9534f;
 }
 input[type="button"].base.green, button.base.green {    
     background-color: #5cb85c;
-    border-color: #4cae4c;
-}
-input[type="button"].base.green:hover, button.base.green:hover {    
-    background-color:#449d44;
-    border-color:#398439
+    border:2px solid #5cb85c;
 }
 input[type="button"].base.orange, button.base.orange {
     background-color: #f0ad4e;
-    border-color: #eea236;
-}
-input[type="button"].base.orange:hover, button.base.orange:hover {    
-    background-color: #ec971f;
-    border-color: #d58512;
-}
-input[type="button"].base:disabled, button:disabled {    
-    background: #ccc;
-    cursor: default;
+    border:2px solid #f0ad4e;
 }
 
 input[type="button"].base.medium, button.base.mediium {
@@ -69,3 +48,37 @@ input[type="button"].base.medium, button.base.mediium {
 input[type="button"].base.large, button.base.large {
     padding: 20px 30px;
 }
+
+input[type="button"].base.hollow, button.base.hollow {
+    Background-color: inherit;
+    color: black;
+}
+
+
+input[type="button"].base.orange:hover, button.base.orange:hover {    
+    background-color: #ec971f;
+    border:2px solid #ec971f;
+}
+input[type="button"].base.green:hover, button.base.green:hover {    
+    background-color:#449d44;
+    border: 2px solid #449d44;
+}
+
+input[type="button"].base.red:hover, button.base.red:hover {    
+    background-color:#c9302c;    
+    border: 2px solid #c9302c;
+}
+
+input[type="button"].base:hover, button.base:hover {    
+    background-color:#31b0d5;
+    border: 2px solid #31b0d5;
+    color: white;
+}
+
+input[type="button"].base:disabled, button:disabled {    
+    background: #ccc;
+    border: 2px solid #ccc;
+    cursor: default;
+    color: black;
+}
+
